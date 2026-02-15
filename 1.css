@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("assets/backgrounds/backgroundOpenBookRight.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: relative;
+    top: 1%;
+    left: 50%;
+    width:90vw;
+    transform: translateX(-50%);
+}
+
+.mainTitle {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.doctor{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.titleDoctor{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.hopel{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.titleHopel{
+    position: absolute;
+    top: 26%;
+    left: 15%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.click{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+
+.libary{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+/* שכבת מעבר למסך */
+.page-transition {
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 99999;
+    transition: opacity 0.5s ease;
+}
+
+/* כשהמעבר פעיל */
+.page-transition.active {
+    opacity: 1;
+}
+
+/* אנימציה לדמות בלחיצה */
+.character-click {
+    animation: zoomClick 0.4s ease forwards;
+}
+
+@keyframes zoomClick {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.15);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+
+/* שכבת מעבר עגולה */
+.circle-transition {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 99999;
+    pointer-events: none;
+}
+
+/* כשהמעבר מתחיל */
+.circle-transition.active {
+    animation: circleExpand 0.6s ease forwards;
+}
+
+@keyframes circleExpand {
+    to {
+        transform: translate(-50%, -50%) scale(200);
+    }
+}
+
+/* אנימציית לחיצה לדמות */
+.button.clicked .doctor {
+    animation: doctorTap 0.3s ease;
+}
+
+@keyframes doctorTap {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(0.95); }
+}

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("assets/backgrounds/libaryBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    width:90vw;
+    transform: translateX(-50%);
+}
+
+.book1,.book2,.book3,.book4,.book5,.book6,.book7,.book8,.book9,.book10,.book11 {
+   cursor: pointer;
+}
+
+.book1 {
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 70%;
+    transform: translateX(-50%);
+
+}
+
+.book2 {
+    position: absolute;
+    width: 28%;
+    top: 30%;
+    left: 41%;
+    transform: translateX(-50%);
+}
+
+.book3 {
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.book4 {
+    position: absolute;
+    width: 28%;
+    top: 40%;
+    left: 65%;
+    transform: translateX(-50%);
+}
+
+.book5 {
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    left:32%;
+    transform: translateX(-50%);
+}
+
+.book6 {
+    position: absolute;
+    width: 30%;
+    top: 52%;
+    left: 65%;
+    transform: translateX(-50%);
+}
+
+.book7 {
+    position: absolute;
+    width: 36%;
+    top: 52%;
+    left: 38%;
+    transform: translateX(-50%);
+}
+
+.book8 {
+    position: absolute;
+    width: 34%;
+    top: 65%;
+    left: 85%;
+    transform: translateX(-50%);
+}
+
+.book9 {
+    position: absolute;
+    width: 32%;
+    top: 65%;
+    left: 63%;
+    transform: translateX(-50%);
+}
+
+.book10 {
+    position: absolute;
+    width: 26%;
+    top: 66%;
+    left: 36%;
+    transform: translateX(-50%);
+}
+
+.book11 {
+    position: absolute;
+    width: 28%;
+    top: 65%;
+    left: 17%;
+    transform: translateX(-50%);
+}
+
+.finishBtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;    
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.finishBtn:hover {
+    transform: translateX(-50%) scale(1.1);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+
+.finishBtn:active {
+    transform: translateX(-50%) scale(0.95);
+}
+
+.locked {
+  filter: grayscale(100%) brightness(0.6);
+  pointer-events: none;
+  opacity: 0.7;
+}

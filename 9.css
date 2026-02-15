@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("assets/backgrounds/backgroundOpenBookRight.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    width:90vw;
+    transform: translateX(-50%);
+}
+
+.mainTitle {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.doctor{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.hotTitle{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.hopel{
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.coldTitle{
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    width:25%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 10000;
+}
+
+.click{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+
+.libary{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    cursor: pointer;
+    transform: translateX(-50%);
+}

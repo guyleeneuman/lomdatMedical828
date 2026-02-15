@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>שיחות מחייבות-רפואה</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<img class="logo" src="assets/logo/logo.png" alt="logo">
+<img class="mainTitle" src="assets/titles/people.png" alt="title">
+<img class="titleDoctor" src="assets/titles/doctorTitle.png" alt="title">
+<img class="titleHopel" src="assets/titles/hopelTitle.png" alt="title">
+
+
+<div class="button" onclick="goToDoctor()">
+<img class="doctor" src="assets/characters/doctor.png" alt="title">
+</div>
+
+
+<div class="button" onclick="goToHopel()">
+<img class="hopel" src="assets/characters/hopel.png" alt="title">
+</div>
+
+<img class="click" src="assets/titles/knowMore.png" alt="title">
+<img class="libary" src="assets/buttons/toLibary.png"
+     onclick="goToLibrary(1)">
+
+
+
+<div class="page-transition"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
+<script>
+function goToDoctor() {
+    window.location.href = "1Doctor.html";
+}
+function goToHopel() {
+    window.location.href = "1Hopel.html";
+}
+
+function goToNextPage(url, element) {
+    const transition = document.querySelector(".page-transition");
+
+    // מפעיל אנימציה על הדמות
+    element.classList.add("character-click");
+
+    // מפעיל fade למסך
+    setTimeout(() => {
+        transition.classList.add("active");
+    }, 200);
+
+    // מעבר דף
+    setTimeout(() => {
+        window.location.href = url;
+    }, 600);
+}
+
+
+</script>

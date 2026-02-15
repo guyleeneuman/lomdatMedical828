@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("assets/backgrounds/endBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: relative;
+    top: 1%;
+    left: 50%;
+    width:90vw;
+    transform: translateX(-50%);
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    position: absolute;
+    top: 75%;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+        -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateX(-50%) scale(1.1);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+
+.btn:active {
+    transform: translateX(-50%) scale(0.95);
+}
+
+.thankYou {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; /* 👈 מוסיפים את זה */
+}
