@@ -64,7 +64,7 @@ body {
 
 .click{
     position: absolute;
-    top: 60%;
+    top: 62%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;

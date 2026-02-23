@@ -90,6 +90,7 @@ body {
     left: 25%;
     cursor: pointer;
     transform: translateX(-50%);
+     z-index: 10000000;
 }
 
 .libary{
@@ -98,6 +99,7 @@ body {
     left: 50%;
     cursor: pointer;
     transform: translateX(-50%);
+     z-index: 10000000;
 }
 
 .subTitle{

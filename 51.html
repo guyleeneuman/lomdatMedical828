@@ -14,6 +14,9 @@
 <div class="button" onclick="goTo52()">
 <img class="button" src="assets/buttons/continue.png" alt="title">
 </div>
+<div class="backBtn" onclick="goTo51()">
+<img class="backBtn" src="assets/buttons/backBtn.png" alt="title">
+</div>
 
 <script src="main.js"></script>
 </body>
@@ -23,10 +26,21 @@
     top:29%;
     width: 70%;
 }
+.backBtn {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    width: 100%;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
 </style>
 
 <script>
 function goTo52() {
     window.location.href = "52.html";
+}
+function goTo51() {
+    window.location.href = "5.html";
 }
 </script>

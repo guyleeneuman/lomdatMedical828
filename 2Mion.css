@@ -72,8 +72,9 @@ body {
 
 .text {
     position: absolute;
-    top: 30%;
-    left: 45%;
+    top:28%;
+    left: 30%;
+    width: 110%;
     transform: translateX(-50%);
 }
 

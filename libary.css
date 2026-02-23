@@ -22,7 +22,7 @@ body {
 .book1 {
     position: absolute;
     width: 30%;
-    top: 33%;
+    top: 31%;
     left: 70%;
     transform: translateX(-50%);
 
@@ -31,7 +31,7 @@ body {
 .book2 {
     position: absolute;
     width: 28%;
-    top: 33%;
+    top: 31%;
     left: 41%;
     transform: translateX(-50%);
 }
@@ -39,7 +39,7 @@ body {
 .book3 {
     position: absolute;
     width: 30%;
-    top: 33%;
+    top: 31%;
     left: 20%;
     transform: translateX(-50%);
 }
@@ -47,7 +47,7 @@ body {
 .book4 {
     position: absolute;
     width: 28%;
-    top: 44%;
+    top: 42%;
     left: 65%;
     transform: translateX(-50%);
 }
@@ -55,7 +55,7 @@ body {
 .book5 {
     position: absolute;
     width: 30%;
-    top: 44%;
+    top: 42%;
     left:32%;
     transform: translateX(-50%);
 }
@@ -63,7 +63,7 @@ body {
 .book6 {
     position: absolute;
     width: 30%;
-    top: 55%;
+    top: 54%;
     left: 65%;
     transform: translateX(-50%);
 }
@@ -71,7 +71,7 @@ body {
 .book7 {
     position: absolute;
     width: 36%;
-    top: 55%;
+    top: 54%;
     left: 38%;
     transform: translateX(-50%);
 }
@@ -79,7 +79,7 @@ body {
 .book8 {
     position: absolute;
     width: 34%;
-    top: 68%;
+    top: 67%;
     left: 85%;
     transform: translateX(-50%);
 }
@@ -87,7 +87,7 @@ body {
 .book9 {
     position: absolute;
     width: 32%;
-    top: 68%;
+    top: 67%;
     left: 63%;
     transform: translateX(-50%);
 }
@@ -95,7 +95,7 @@ body {
 .book10 {
     position: absolute;
     width: 26%;
-    top: 69%;
+    top: 68%;
     left: 36%;
     transform: translateX(-50%);
 }
@@ -103,7 +103,7 @@ body {
 .book11 {
     position: absolute;
     width: 28%;
-    top: 68%;
+    top: 67%;
     left: 17%;
     transform: translateX(-50%);
 }
@@ -134,5 +134,3 @@ body {
   pointer-events: none;
   opacity: 0.7;
 }
-
-

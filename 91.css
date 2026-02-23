@@ -90,4 +90,5 @@ body {
     left: 50%;
     cursor: pointer;
     transform: translateX(-50%);
+    z-index: 10000000;
 }

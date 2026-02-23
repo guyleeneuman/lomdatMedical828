@@ -13,11 +13,18 @@
 
 <img class="libary" src="assets/buttons/toLibary.png"
      onclick="goToLibrary(11)">
-
+<div class="backBtn" onclick="goTo11()">
+<img class="backBtn" src="assets/buttons/backBtn.png" alt="title">
+</div>
 <script src="main.js"></script>
 </body>
 </html>
 
+<script>
+    function goTo11() {
+    window.location.href = "11.html";
+}
+</script>
 
 <style> 
     .text {
@@ -26,4 +33,13 @@
         width: 75%
         
     }
+    .backBtn {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    width: 100%;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
+
 </style>

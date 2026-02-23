@@ -11,9 +11,12 @@
 <img class="mainTitle" src="assets/titles/book6Title.png" alt="title">
 <img class="subTitle" src="assets/titles/62.Title.png" alt="title">
 <img class="text" src="assets/text/63Text.png" alt="title">
-<img class="libary" src="assets/buttons/toLibary.png"
-     onclick="goToLibrary(6)">
-
+<div class="button" onclick="goTo63()">
+<img class="button" src="assets/buttons/continue.png" alt="title">
+</div>
+<div class="backBtn" onclick="goTo61()">
+<img class="backBtn" src="assets/buttons/backBtn.png" alt="title">
+</div>
 
 <script src="main.js"></script>
 </body>
@@ -23,5 +26,20 @@
     top:32%;
     width: 66%;
 }
+.backBtn {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    width: 100%;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
 </style>
-
+<script>
+function goTo61() {
+    window.location.href = "61.html";
+}
+function goTo63() {
+    window.location.href = "63.html";
+}
+</script>

@@ -15,7 +15,9 @@
 <div class="button" onclick="goTo9()">
 <img class="button" src="assets/buttons/back.png" alt="title">
 </div>
-
+<div class="backBtn" onclick="goTo94()">
+<img class="backBtn" src="assets/buttons/backBtn.png" alt="title">
+</div>
 
 
 
@@ -25,6 +27,11 @@
 <script>
 function goTo9() {
     window.location.href = "9.html";
+
+}
+function goTo94() {
+    window.location.href = "94.html";
+
 }
 </script>
 <style> 
@@ -34,4 +41,12 @@ function goTo9() {
         width: 75%
         
     }
+    .backBtn {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    width: 100%;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
 </style>

@@ -13,13 +13,30 @@
 <div class="button" onclick="goTo33()">
 <img class="button" src="assets/buttons/continue.png" alt="title">
 </div>
+<div class="backBtn" onclick="goTo31()">
+<img class="backBtn" src="assets/buttons/backBtn.png" alt="title">
+</div>
+
 
 <script src="main.js"></script>
 </body>
 </html>
+<style>
+  .backBtn {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    width: 100%;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
+</style>
 
 <script>
 function goTo33() {
     window.location.href = "33.html";
+}
+function goTo31() {
+    window.location.href = "3.html";
 }
 </script>
